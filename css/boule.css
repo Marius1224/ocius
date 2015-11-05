@@ -1,0 +1,443 @@
+/**created by Malek Berrezouga**/
+
+
+@media only screen 
+  and (min-width: 1479px) {
+	body {
+		font-size: 1.25em;
+	}
+	
+}
+/******ECRAN SIZE MEDIUM******/
+@media only screen 
+  and (min-width: 1260px) 
+  and (max-width: 1460px) {
+	body {
+		font-size: 1.20em;
+	}
+		@font-face {
+    font-family: Dosis-Regular;
+    src: url(objets/Dosis-Regular.otf);
+	}
+	.bouleNew {
+		width: 208px;
+		position: fixed;
+		
+	}
+	#usb{max-height: 50px;}
+	#calculat1{max-height: 135px;
+		margin-left: -2%;
+		
+	}
+	#calculat2{
+		margin-right: -2%;
+		max-height: 130px;
+	}
+	#cell{
+		max-height: 270px;
+	}
+	#clavier{
+		max-height: 190px;
+	}
+	#ecouteur{
+		margin-right: 2%;
+		max-height: 140px;
+	}
+	#blocNote1 {
+		max-height: 70px;
+	}
+	#blocNote2 {
+		max-height: 70px;
+	}
+	#pcLeft{
+		max-height: 300px;
+	}
+	#pcRight{
+		margin-top: 2%;
+		max-height: 240px;
+	}
+	#cafe{
+		max-height: 70px;
+		margin-left:20%;
+	}
+	#cafe2{
+		max-height: 70px;
+		margin-left:3%;
+	}
+	#cafe3{max-height: 70px;
+		margin-top:-7%;}
+	#ecran{
+		margin-left: 2%;
+		max-height: 250px;
+	}
+	#carnet{
+		margin-left: 15%;
+		max-height: 120px;
+	}
+	#tablette{
+		max-height: 230px;
+	}
+
+	#boule8{
+		max-height: 220px;
+	}
+	#boule13{
+		max-height: 300px;
+	}
+
+}
+/***ECRAN SIZE SMALL ****/
+@media only screen 
+  and (min-width: 900px) 
+  and (max-width: 1259px) {
+	body {
+		font-size: 1.25em;
+	}
+/*	@font-face {
+    font-family: Dosis-Regular;
+    src: url(objets/Dosis-Regular.otf);
+	}*/
+	#usb{max-height: 50px;}
+	#calculat1{max-height: 135px;
+		margin-left: -2%;
+		margin-top: 40%;
+	}
+	#calculat2{
+		margin-right: -3%;
+		max-height: 120px;
+	}
+	#cell{
+		max-height: 270px;
+	}
+	#clavier{
+		max-height: 180px;
+	}
+	#ecouteur{
+		margin-right: 2%;
+		max-height: 140px;
+	}
+	#blocNote1 {
+		max-height: 70px;
+	}
+	#blocNote2 {
+		max-height: 70px;
+	}
+	#pcLeft{
+		max-height: 300px;
+	}
+	#pcRight{
+		margin-top: 2%;
+		max-height: 240px;
+	}
+	#cafe{max-height: 70px;
+		margin-left:20%;}
+	#cafe2{max-height: 70px;
+		margin-left:3%;}
+	#cafe3{max-height: 70px;
+		margin-top:-7%;}
+	#ecran{
+		margin-left: 2%;
+		max-height: 230px;
+	}
+	#carnet{
+		margin-left: 15%;
+		max-height: 120px;
+	}
+	#tablette{
+		max-height: 230px;
+	}
+
+	.bouleNew {
+		max-width: 180px;
+		font-size: 1.00em;
+	}
+}
+
+#boule {
+  	position: absolute;
+  	height: 160px;
+}
+
+#boule1 { 
+	position: absolute;
+	height: 160px;
+}
+
+#boule2 {
+	position: absolute;
+	height: 120px;
+}
+
+#boule3 {
+	position: absolute;
+  	height: 150px;
+}
+
+#boule4 { 
+	position: absolute;
+  	height: 150px;
+}
+
+#boule5 {
+	position: absolute;
+  	height: 100px;
+}
+
+#boule6 {
+	position: absolute;
+  	height: 300px;
+}
+
+#boule7 {
+	position: absolute;
+  	height: 140px;
+}
+
+#boule8 {
+	position: absolute;
+	height:170px;
+}
+
+#boule9 {
+	position: absolute;
+	height:170px;
+}
+
+#boule10 {
+	position: absolute;
+	height:170px;
+}
+
+#boule11 {
+	position: absolute;
+	height:170px;	
+}
+
+#boule12 {
+	position: absolute;
+	height:160px;
+}
+
+#boule13 {
+	position: absolute;
+	height:140px;
+}
+
+#boule14 {
+	position: absolute;
+	height:160px;
+}
+
+#usb {
+	position:absolute;
+	left: 13.5%;
+	top: 20.5%;
+}
+
+#clavier {
+	position: absolute;
+	left: 32%;
+	background-color: transparent;
+}
+
+#ecran {
+	position: absolute;
+	top: 34%;
+	left:20%;
+}
+
+#pcLeft {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+
+#tablette {
+	position: absolute;
+	bottom: 0;
+	left: 37%;
+}
+
+#cell {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#carnet {
+	position: absolute; 
+	vertical-align: bottom;
+	bottom: 0;
+	left: 59%;
+}
+
+#pcRight {
+	position: absolute;
+	right: 0;
+}
+
+#ecouteur {
+	position: absolute;
+	right: 22%;
+	top: 8%;
+}
+
+#blocNote1 {
+	position: absolute;
+	right: 10%;
+}
+
+#blocNote2 {
+	position: absolute;
+	left: 10%;
+	bottom: 0;
+}
+
+#section1 {
+	background-color: #B1A899;	
+	width: 100vw;
+}
+
+#cafe {
+	position: absolute;
+	right: 38%;
+}
+
+#cafe2 {
+	position: absolute;
+	left: 14.5%;
+	bottom: 8%;
+}
+
+#cafe3 {
+	position: absolute;
+	top: 60%;
+	right: 6.5%;
+}
+
+#calculat1 {
+	position: absolute;
+}
+
+#calculat2 {
+	position: absolute;
+	right:21%;
+	top:45%;
+}
+
+#iconPage {
+	position: absolute;
+	right: 80%;
+}
+
+.bonHomme {
+	position: absolute;
+	visibility: hidden;
+	z-index: 300;
+}
+
+.boule {
+	z-index: 100;
+	position:absolute;
+}
+
+.bouleNew {
+	z-index: 100;
+	position:absolute;
+	visibility: hidden;
+}
+
+/***ECRAN Very SMALL ****/
+@media only screen 
+  and (min-width: 600px) 
+  and (max-width: 899px) {
+	body {
+		font-size: 1.25em;
+	}
+/*	@font-face {
+    font-family: Dosis-Regular;
+    src: url(objets/Dosis-Regular.otf);
+	}*/
+	#usb{
+		margin-left: -4%;
+		max-height: 40px;
+	}
+	#calculat1{
+		display: none;
+		position: absolute;
+	}
+	#calculat2{
+		margin-right: 60%;
+		max-height: 120px;
+	}
+	#cell{
+		max-height: 214px;
+	}
+	#clavier{
+		
+		max-height: 140px;
+	}
+	#ecouteur{
+		margin-right: -12%;
+		max-height: 110px;
+	}
+	#blocNote1 {
+		margin-top: 70%;
+		max-height: 65px;
+	}
+	
+	#blocNote2 {
+		display: none;
+		max-height: 40px;
+	}
+	#pcLeft{
+		max-height: 215px;
+	}
+	#pcRight{
+		margin-top: 15%;
+		max-height: 180px;
+	}
+	#cafe{max-height: 40px;
+		margin-right:-10%;}
+	#cafe2{
+		max-height: 40px;
+		margin-left:8%;}
+	#cafe3{
+		display: none;
+		max-height: 40px;
+		margin-top:0%;}
+	#ecran{
+		margin-top: 0%;
+		margin-left: 3%;
+		max-height: 180px;
+	}
+	#carnet{
+		display: none;
+		margin-left: 15%;
+		max-height: 90px;
+	}
+	#tablette{
+		width: 310px;
+		height: 312px;
+		max-height: 170px;
+	}
+
+	#boule5{margin-left: 3%;}
+	.bouleNew {
+		max-width: 141px;
+		font-size: 1.10em;
+	}
+}
+
+#cell {
+	width: 394px;
+	height: 356px;
+	overflow: hidden;
+	right:-2%;
+}
+
+#tablette{
+	width: 370px;
+	height: 312px;
+	overflow: hidden;
+}

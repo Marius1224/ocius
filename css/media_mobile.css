@@ -1,0 +1,1803 @@
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	html {
+		overflow-y: hidden;
+		overflow-x: hidden;
+	}
+	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	h1 {
+  		font-size: 2em;
+  	}
+  	h2 {
+  		font-size: 1.5em;
+  	}
+	.form-control::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+		color: #f4901f;
+	}
+	.form-control:-moz-placeholder, textarea:-moz-placeholder { 
+		color: #f4901f;
+	}
+	.form-control::-moz-placeholder, textarea::-moz-placeholder { 
+		color: #f4901f;
+	}
+	.form-control:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+		color: #f4901f;
+	}
+	#slide3 {
+		font-size: 0.750em;
+		//background-color: red;
+	}
+	.inputT {
+		width: 60%;
+		//height: 20px;
+		max-width: 70%;
+		font-size: 1.5em;
+	}
+	#submitBtn {				
+		padding: 0 5px;
+	}
+	#bonhommeSection1 {
+		left: 20px;
+		//bottom: 30px;
+	}
+	#bonhommeSection2 {
+		left: 20px;
+		//bottom: 10px;
+	}
+	#numeroTel {
+		font-size: 1.250em;
+	}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+	html {
+		overflow-y: hidden;
+		overflow-x: hidden;
+	}
+	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	#slide3 {
+		top: 3%;
+	}	
+	#bonhommeSection1 {
+		bottom: 10px;
+	}
+	#bonhommeSection2 {
+		bottom: 10px;
+	} 
+	#copyright {
+		bottom: 10%;
+	}
+	#numeroTel {
+		padding-top: 10%;
+	}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+	html {
+		overflow-y: hidden;
+		overflow-x: hidden;
+	}
+	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	#slide3 {
+		top: 10%;
+		margin: 0;
+	}	
+	#bonhommeSection1 {
+		bottom: 20px;
+	}
+	#bonhommeSection2 {
+		bottom: 20px;
+	}
+}
+
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	h1 {
+  		font-size: 2em;
+  	}
+  	h2 {
+  		font-size: 1.5em;
+  	}
+	.form-control::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+		color: #f4901f;
+	}
+	.form-control:-moz-placeholder, textarea:-moz-placeholder { 
+		color: #f4901f;
+	}
+	.form-control::-moz-placeholder, textarea::-moz-placeholder { 
+		color: #f4901f;
+	}
+	.form-control:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+		color: #f4901f;
+	}
+	#slide3 {
+		font-size: 0.750em;
+		//background-color: red;
+	}
+	.inputT {
+		width: 60%;
+		height: 20px;
+		max-width: 70%;
+		font-size: 1.750em;
+	}
+	#submitBtn {				
+		padding: 0 5px;
+	}
+	#bonhommeSection1 {
+		left: 20px;
+	}
+	#bonhommeSection2 {
+		left: 20px;
+	}
+	#numeroTel {
+		font-size: 1.250em;
+	}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	h1 {
+  		font-size: 2em;
+  	}
+  	h2 {
+  		font-size: 1.5em;
+  	}
+	#slide3 {
+		top: 3%;
+	}
+	.inputT {
+		width: 80%;
+		max-width: 80%;
+	}	
+	#bonhommeSection1 {
+		bottom: 10px;
+	}
+	#bonhommeSection2 {
+		bottom: 10px;
+	} 
+	#copyright {
+		bottom: 10%;
+	}
+	#numeroTel {
+		padding-top: 10%;
+	}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+  	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	h1 {
+  		font-size: 2em;
+  	}
+  	h2 {
+  		font-size: 1.5em;
+  	}
+	#slide3 {
+		top: 10%;
+		margin: 0;
+	}
+	#bonhommeSection1 {
+		bottom: 20px;
+	}
+	#bonhommeSection2 {
+		bottom: 20px;
+	}
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+  	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	h1 {
+  		font-size: 2em;
+  	}
+  	h2 {
+  		font-size: 1.5em;
+  	}
+	.form-control::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+		color: #f4901f;
+	}
+	.form-control:-moz-placeholder, textarea:-moz-placeholder { 
+		color: #f4901f;
+	}
+	.form-control::-moz-placeholder, textarea::-moz-placeholder { 
+		color: #f4901f;
+	}
+	.form-control:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+		color: #f4901f;
+	}
+	#slide3 {
+		font-size: 0.750em;
+		//background-color: red;
+	}
+	.inputT {
+		width: 60%;
+		height: 30px;
+		max-width: 80%;
+		font-size: 1.850em;
+	}
+	#submitBtn {				
+		padding: 0 5px;
+	}
+	#bonhommeSection1 {
+		left: 20px;
+	}
+	#bonhommeSection2 {
+		left: 20px;
+	}
+	#numeroTel {
+		font-size: 1.500em;
+	}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+  	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	h1 {
+  		font-size: 2em;
+  	}
+  	h2 {
+  		font-size: 1.5em;
+  	}
+	.inputT {
+		width: 80%;
+		max-width: 80%;
+	}	
+	#bonhommeSection1 {
+		bottom: 10px;
+	}
+	#bonhommeSection2 {
+		bottom: 10px;
+	} 
+	#copyright {
+		bottom: 5%;
+	}
+	#numeroTel {
+		padding-top: 10%;
+	}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+  	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	h1 {
+  		font-size: 2em;
+  	}
+  	h2 {
+  		font-size: 1.5em;
+  	}
+	#slide3 {
+		top: 10%;
+		margin: 0;
+	}
+	#bonhommeSection1 {
+		bottom: 20px;
+	}
+	#bonhommeSection2 {
+		bottom: 20px;
+	}
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+  	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	h1 {
+  		font-size: 2em;
+  	}
+  	h2 {
+  		font-size: 1.5em;
+  	}
+	.form-control::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+		color: #f4901f;
+	}
+	.form-control:-moz-placeholder, textarea:-moz-placeholder { 
+		color: #f4901f;
+	}
+	.form-control::-moz-placeholder, textarea::-moz-placeholder { 
+		color: #f4901f;
+	}
+	.form-control:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+		color: #f4901f;
+	}
+	#slide3 {
+		font-size: 0.750em;
+	}
+	.inputT {
+		width: 60%;
+		height: 30px;
+		max-width: 70%;
+		font-size: 1.750em;
+	}
+	#submitBtn {				
+		padding: 0 5px;
+	}
+	#bonhommeSection1 {
+		left: 20px;
+	}
+	#bonhommeSection2 {
+		left: 20px;
+	}
+	#numeroTel {
+		font-size: 1.500em;
+	}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+  	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	h1 {
+  		font-size: 2em;
+  	}
+  	h2 {
+  		font-size: 1.5em;
+  	}
+	.inputT {
+		width: 80%;
+		max-width: 80%;
+	}	
+	#bonhommeSection1 {
+		bottom: 10px;
+	}
+	#bonhommeSection2 {
+		bottom: 10px;
+	} 
+	#copyright {
+		bottom: 5%;
+	}
+	#numeroTel {
+		padding-top: 10%;
+	}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+  	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	h1 {
+  		font-size: 2em;
+  	}
+  	h2 {
+  		font-size: 1.5em;
+  	}
+	#slide3 {
+		top: 10%;
+		margin: 0;
+	}
+	#bonhommeSection1 {
+		bottom: 20px;
+	}
+	#bonhommeSection2 {
+		bottom: 20px;
+	}
+}
+
+/* ----------- HTC One ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	h1 {
+  		font-size: 2em;
+  	}
+  	h2 {
+  		font-size: 1.5em;
+  	}
+	.form-control::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+		color: #f4901f;
+	}
+	.form-control:-moz-placeholder, textarea:-moz-placeholder { 
+		color: #f4901f;
+	}
+	.form-control::-moz-placeholder, textarea::-moz-placeholder { 
+		color: #f4901f;
+	}
+	.form-control:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+		color: #f4901f;
+	}
+	#slide3 {
+		font-size: 0.750em;
+		//background-color: red;
+	}
+	.inputT {
+		width: 70%;
+		height: 30px;
+		max-width: 70%;
+		font-size: 1.5em;
+	}
+	#submitBtn {				
+		padding: 0 5px;
+	}
+	#bonhommeSection1 {
+		left: 20px;
+	}
+	#bonhommeSection2 {
+		left: 20px;
+	}
+	#numeroTel {
+		font-size: 1.500em;
+	}
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	h1 {
+  		font-size: 2em;
+  	}
+  	h2 {
+  		font-size: 1.5em;
+  	}
+	.inputT {
+		width: 70%;
+		height: 30px;
+	}	
+	#bonhommeSection1 {
+		bottom: 10px;
+	}
+	#bonhommeSection2 {
+		bottom: 10px;
+	}
+	#copyright {
+		bottom: 5%;
+	}
+	#numeroTel {
+		padding-top: 10%;
+	}
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	h1 {
+  		font-size: 2em;
+  	}
+  	h2 {
+  		font-size: 1.5em;
+  	}
+	#slide3 {
+		top: 10%;
+		margin: 0;
+	}
+	.inputT {
+		width: 70%;
+		height: 30px;
+	}	
+	#bonhommeSection1 {
+		bottom: 20px;
+	}
+	#bonhommeSection2 {
+		bottom: 20px;
+	}
+}
+
+/* ----------- Nokia N9 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 1) {
+	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	h1 {
+  		font-size: 2em;
+  	}
+  	h2 {
+  		font-size: 1.5em;
+  	}
+	.form-control::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+		color: #f4901f;
+	}
+	.form-control:-moz-placeholder, textarea:-moz-placeholder { 
+		color: #f4901f;
+	}
+	.form-control::-moz-placeholder, textarea::-moz-placeholder { 
+		color: #f4901f;
+	}
+	.form-control:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+		color: #f4901f;
+	}
+	#slide3 {
+		font-size: 0.750em;
+		top: 20px;
+		//background-color: red;
+	}
+	.inputT {
+		width: 80%;
+		height: 25px;
+		max-width: 80%;
+		font-size: 1.5em;
+	}
+	.QapTcha  {	
+		top: 15px;
+	}
+	#submitBtn {				
+		padding: 0 5px;
+	}
+	#bonhommeSection1 {
+		left: 20px;
+	}
+	#bonhommeSection2 {
+		left: 20px;
+	}
+	#numeroTel {
+		font-size: 1.500em;
+	}
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 1) 
+  and (orientation: portrait) {
+	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	.inputT {
+		width: 70%;
+		height: 30px;
+	}	
+	#bonhommeSection1 {
+		bottom: 10px;
+	}
+	#bonhommeSection2 {
+		bottom: 10px;
+	} 
+	#numeroTel {
+		padding-top: 2%;
+	}
+	#copyright {
+		bottom: 5%;
+	}
+	#numeroTel {
+		padding-top: 10%;
+	}
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 1) 
+  and (orientation: landscape) {
+	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	#slide3 {
+		top: 10%;
+		margin: 0;
+	}
+	.inputT {
+		width: 70%;
+		height: 30px;
+	}	
+	#bonhommeSection1 {
+		bottom: 20px;
+	}
+	#bonhommeSection2 {
+		bottom: 20px;
+	}
+}
+
+/* ----------- Nokia Lumia 520 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 533px) 
+  and (-webkit-device-pixel-ratio: 1.4) {
+	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	h1 {
+  		font-size: 2em;
+  	}
+  	h2 {
+  		font-size: 1.5em;
+  	}
+	.form-control::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+		color: #f4901f;
+	}
+	.form-control:-moz-placeholder, textarea:-moz-placeholder { 
+		color: #f4901f;
+	}
+	.form-control::-moz-placeholder, textarea::-moz-placeholder { 
+		color: #f4901f;
+	}
+	.form-control:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+		color: #f4901f;
+	}
+	#slide3 {
+		font-size: 0.750em;
+		top: 20px;
+		//background-color: red;
+	}
+	.inputT {
+		width: 80%;
+		height: 25px;
+		max-width: 80%;
+		font-size: 1.5em;
+	}
+	#submitBtn {				
+		padding: 0 5px;
+	}
+	#bonhommeSection1 {
+		left: 20px;
+	}
+	#bonhommeSection2 {
+		left: 20px;
+	}
+	#numeroTel {
+		font-size: 1.450em;
+	}
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 533px) 
+  and (-webkit-device-pixel-ratio: 1.4) 
+  and (orientation: portrait) {
+	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	.inputT {
+		width: 70%;
+		height: 30px;
+	}	
+	#bonhommeSection1 {
+		bottom: 10px;
+	}
+	#bonhommeSection2 {
+		bottom: 10px;
+	} 
+	#copyright {
+		bottom: 5%;
+	}
+	#numeroTel {
+		padding-top: 10%;
+	}
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 533px) 
+  and (-webkit-device-pixel-ratio: 1.4) 
+  and (orientation: landscape) {
+	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	#slide3 {
+		top: 10%;
+		margin: 0;
+	}
+	.inputT {
+		width: 70%;
+		height: 30px;
+	}	
+	#bonhommeSection1 {
+		bottom: 20px;
+	}
+	#bonhommeSection2 {
+		bottom: 20px;
+	}
+}
+
+/* ----------- Nexus 4 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 384px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	h1 {
+  		font-size: 2em;
+  	}
+  	h2 {
+  		font-size: 1.5em;
+  	}
+	.form-control::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+		color: #f4901f;
+	}
+	.form-control:-moz-placeholder, textarea:-moz-placeholder { 
+		color: #f4901f;
+	}
+	.form-control::-moz-placeholder, textarea::-moz-placeholder { 
+		color: #f4901f;
+	}
+	.form-control:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+		color: #f4901f;
+	}
+	#slide3 {
+		font-size: 1em;
+		top: 20px;
+		//background-color: red;
+	}
+	.inputT {
+		width: 80%;
+		height: 20px;
+		max-width: 80%;
+		font-size: 1.5em;
+	}
+	#submitBtn {				
+		padding: 0 5px;
+		//bottom: 30px;
+	}
+	#bonhommeSection1 {
+		left: 20px;
+	}
+	#bonhommeSection2 {
+		left: 20px;
+	}
+	#numeroTel {
+		font-size: 1.250em;
+	}
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 384px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	.inputT {
+		width: 70%;
+		height: 30px;
+	}	
+	#bonhommeSection1 {
+		bottom: 10px;
+	}
+	#bonhommeSection2 {
+		bottom: 50px;
+	} 
+	#copyright {
+		bottom: 5%;
+	}
+	#numeroTel {
+		padding-top: 10%;
+	}
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 384px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	#slide3 {
+		top: 5%;
+		margin: 0;
+	}
+	.inputT {
+		width: 70%;
+		height: 30px;
+	}	
+	#bonhommeSection1 {
+		bottom: 20px;
+	}
+	#bonhommeSection2 {
+		bottom: 20px;
+	}
+	#numeroTel {
+		padding-top: 5%;
+	}
+}
+
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+  	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	h1 {
+  		font-size: 1.75em;
+  	}
+  	h2 {
+  		font-size: 1em;
+  	}
+	.form-control::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+		color: #f4901f;
+	}
+	.form-control:-moz-placeholder, textarea:-moz-placeholder { 
+		color: #f4901f;
+	}
+	.form-control::-moz-placeholder, textarea::-moz-placeholder { 
+		color: #f4901f;
+	}
+	.form-control:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+		color: #f4901f;
+	}
+	#slide3 {
+		font-size: 1em;
+		//background-color: red;
+	}
+	.inputT {
+		width: 70%;
+		height: 30px;
+		max-width: 70%;
+		font-size: 1.750em;
+	}
+	#submitBtn {				
+		padding: 0 5px;
+	}
+	#bonhommeSection1 {
+		left: 20px;
+	}
+	#bonhommeSection2 {
+		left: 20px;
+	}
+	#numeroTel {
+		font-size: 1.250em;
+	}
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	h1 {
+  		font-size: 2em;
+  	}
+  	h2 {
+  		font-size: 1.5em;
+  	}
+	.inputT {
+		width: 70%;
+		height: 30px;
+	}	
+	#bonhommeSection1 {
+		bottom: 10px;
+	}
+	#bonhommeSection2 {
+		bottom: 10px;
+	} 
+	#copyright {
+		bottom: 5%;
+	}
+	#numeroTel {
+		padding-top: 10%;
+	}
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	h1 {
+  		font-size: 2em;
+  	}
+  	h2 {
+  		font-size: 1.5em;
+  	}
+	#slide3 {
+		top: 10%;
+		margin: 0;
+	}
+	.inputT {
+		width: 70%;
+		height: 20px;
+	}	
+	#bonhommeSection1 {
+		bottom: 20px;
+	}
+	#bonhommeSection2 {
+		bottom: 20px;
+	}
+}
+
+/* ----------- Galaxy S4 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+  	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	h1 {
+  		font-size: 1.75em;
+  	}
+  	h2 {
+  		font-size: 1em;
+  	}
+	.form-control::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+		color: #f4901f;
+	}
+	.form-control:-moz-placeholder, textarea:-moz-placeholder { 
+		color: #f4901f;
+	}
+	.form-control::-moz-placeholder, textarea::-moz-placeholder { 
+		color: #f4901f;
+	}
+	.form-control:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+		color: #f4901f;
+	}
+	#slide3 {
+		font-size: 1em;
+		//background-color: red;
+	}
+	.inputT {
+		width: 70%;
+		height: 30px;
+		max-width: 70%;
+		font-size: 1.750em;
+	}
+	#submitBtn {				
+		padding: 0 5px;
+	}
+	#bonhommeSection1 {
+		left: 20px;
+	}
+	#bonhommeSection2 {
+		left: 20px;
+	}
+	#numeroTel {
+		font-size: 1.250em;
+	}
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	h1 {
+  		font-size: 2em;
+  	}
+  	h2 {
+  		font-size: 1.5em;
+  	}
+	.inputT {
+		width: 70%;
+		height: 30px;
+	}	
+	#bonhommeSection1 {
+		bottom: 10px;
+	}
+	#bonhommeSection2 {
+		bottom: 10px;
+	} 
+	#copyright {
+		bottom: 5%;
+	}
+	#numeroTel {
+		padding-top: 10%;
+	}
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	h1 {
+  		font-size: 2em;
+  	}
+  	h2 {
+  		font-size: 1.5em;
+  	}
+	#slide3 {
+		top: 10%;
+		margin: 0;
+	}
+	.inputT {
+		width: 70%;
+		height: 20px;
+	}	
+	#bonhommeSection1 {
+		bottom: 20px;
+	}
+	#bonhommeSection2 {
+		bottom: 20px;
+	}
+}
+
+/* ----------- Galaxy S5 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+  	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	h1 {
+  		font-size: 2em;
+  	}
+  	h2 {
+  		font-size: 1.5em;
+  	}
+	.form-control::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+		color: #f4901f;
+	}
+	.form-control:-moz-placeholder, textarea:-moz-placeholder { 
+		color: #f4901f;
+	}
+	.form-control::-moz-placeholder, textarea::-moz-placeholder { 
+		color: #f4901f;
+	}
+	.form-control:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+		color: #f4901f;
+	}
+	#slide3 {
+		font-size: 1em;
+		//background-color: red;
+	}
+	.inputT {
+		width: 70%;
+		height: 30px;
+		max-width: 70%;
+		font-size: 1.750em;
+	}
+	#submitBtn {				
+		padding: 0 5px;
+	}
+	#bonhommeSection1 {
+		left: 20px;
+	}
+	#bonhommeSection2 {
+		left: 20px;
+	}
+	#numeroTel {
+		font-size: 1.250em;
+	}
+}
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	h1 {
+  		font-size: 2em;
+  	}
+  	h2 {
+  		font-size: 1.5em;
+  	}
+	.inputT {
+		width: 70%;
+		height: 30px;
+	}	
+	#bonhommeSection1 {
+		bottom: 10px;
+	}
+	#bonhommeSection2 {
+		bottom: 10px;
+	} 
+	#copyright {
+		bottom: 5%;
+	}
+	#numeroTel {
+		padding-top: 10%;
+	}
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+	body {
+		height:100vh;
+		width: 100vw;
+	}
+	#section1 {
+		width: 100vw;
+		height: 100hw;
+	}
+	#section2 {
+		width: 100vw;
+		height: 100hw;
+	}
+	section {
+		width: 100vw;
+		height: 100vh;
+	}
+	.overflowHidden {
+		width: 100vw;
+		height: 100vh;
+	}
+	h1 {
+  		font-size: 2em;
+  	}
+  	h2 {
+  		font-size: 1.5em;
+  	}
+	#slide3 {
+		top: 10%;
+		margin: 0;
+	}
+	.inputT {
+		width: 70%;
+		height: 20px;
+	}	
+	#bonhommeSection1 {
+		bottom: 20px;
+	}
+	#bonhommeSection2 {
+		bottom: 20px;
+	}
+}

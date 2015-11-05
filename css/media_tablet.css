@@ -1,0 +1,711 @@
+
+/* ----- Tablets 768 / 1024 ----- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+		body {
+		font-size: 1em;
+	}
+	.inputT {
+		max-width: 300%;
+		max-height: 300%;	}
+	#slide3 {
+		background-color: transparent;
+	}
+	.overflowHidden{
+		height: 100vh;
+	}
+	#bouleNumeroTelephone{
+		left: 27px;
+	}
+	#qptcha{
+		max-width: 800px;
+	}
+	#cellContact{
+		visibility: visible;
+		height: 80px;
+	}
+	#map {
+		max-width: 1000px;
+		max-height: 500px;
+		min-height: 0px;
+	}
+	
+	
+	section{
+		height: 100vh;
+	}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	body {
+		font-size: 1em;
+	}
+
+	#submitBtn{
+		
+		position: absolute;
+		margin-top: -12px;
+		margin-bottom: 25%;
+				
+	}
+	.overflowHidden{
+		height: 90vh;
+	}
+	.inputT {
+		top: 10px;
+		left: -120px;
+		width: 480px;
+
+		font-size: 1.2em;
+	}
+	#nuage1{
+		visibility: hidden;
+	}
+	#nuage2{
+		visibility: hidden;
+	}
+	#nuage3{
+		position: absolute;
+		left: -60px;
+		top: 100px;
+	}
+	#map {
+		position: absolute;
+		bottom: -580px;
+		max-height: 600px;
+		height: 165px;
+		left: -225px;
+		width: 550px;
+	}
+	#bonHomCell{
+		position: absolute;
+		top: 30.5%;		
+		left: 22.5%;
+	}
+	#copyright{
+		position: absolute;
+		left: 36%;
+		bottom: 0px;
+		margin-bottom: 0px;
+	}
+	#bonhommeSection2{
+		position: absolute;s
+		bottom: 0px;
+		left: 75px;
+		margin-bottom: 0px;
+	}
+	#cellContact{
+		position: absolute;
+		left: 33.8%;
+		top: 53%;
+	}
+	#section2{
+		height: 80vh;
+	}
+	#bouleNumeroTelephone{
+		position: absolute;
+		left: 60px;
+		top: 170px;
+	}
+	#submitBtn{
+		position: absolute;
+		right: 190px;
+		top: 320px;		
+	}
+	#qaptcha{
+		position: absolute;
+		top: 220px;
+	}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	body {
+		font-size: 1em;
+	}
+	#pcLeft,#pcRight,#carnet{
+		visibility: hidden;
+	}
+	#calculat1,#cafe3,#calculat2,#blocNote1{
+		visibility: hidden;
+	}
+	#cafe{
+		margin-right: -30px;
+		height: 70px;
+	}
+	#cafe2{
+		height: 70px;
+	}
+	#usb{
+		height: 70px;
+	}
+	#cell{
+		height: 70px;
+	}
+	#ecouteur{
+		height: 120px;
+	}
+	#clavier{
+		height: 200px;
+	}
+	#ecran{
+		height: 250px;
+		position: absolute;
+		margin-top: 25px;
+		margin-left: 25px;
+	}
+	.overflowHidden{
+		height: 90vh;
+	}
+	.inputT {
+		top:0px;
+		left: 0%;
+		width: 500px;
+		height: 30px;
+	}
+	#bonHomCell{
+		position: absolute;
+		top: 11.5%;
+		left: 60px;
+	}
+	#contactDetails{
+		height: 20vh;
+	}
+	#slide3{
+		height: 20vh;
+	}
+	#map{
+		position: absolute;
+		left: -145px;
+		width: 650px;
+		height: 205px;
+		bottom: -420px;
+	}
+	#bouleNumeroTelephone{
+		position: absolute;
+		left: 10px;
+		top: 15px;
+	}
+	#nuage1{
+		position: absolute;
+		top: 11%;
+		left: 10px;
+	}
+	.nuage2{
+		visibility: hidden;
+	}
+	#nuage3{
+		position: absolute;
+		left: -40px;
+		top: 35px;
+	}
+	#submitBtn{
+		position: absolute;
+		margin-top: 2%;
+		margin-right: -2%;
+	}
+	#cellContact{
+		visibility: visible;
+		position: absolute;
+		left: 20%;
+		top: 35%;
+		
+	}
+	#submitBtn{
+		position: absolute;
+		top: 210%;
+		right: 40%;
+		
+	}
+	#qaptcha{
+		position: absolute;
+		top: 220px;
+		right: 90px;		
+	}
+	#copyright{
+		position: absolute;
+		left: 35%;
+		bottom: 0px;
+	}
+	#bonhommeSection2{
+		position: absolute;s
+		bottom: 0px;
+		left: 75px;
+		margin-bottom: 0px;
+	}
+}
+/***********************************/
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+		body {
+		font-size: 1em;
+	}
+	.inputT {
+		max-width: 300%;
+		max-height: 300%;	}
+	#slide3 {
+		background-color: transparent;
+	}
+	.overflowHidden{
+		height: 100vh;
+	}
+	#bouleNumeroTelephone{
+		left: 27px;
+	}
+	#qptcha{
+		max-width: 800px;
+	}
+	#cellContact{
+		visibility: visible;
+		height: 80px;
+	}
+	#map {
+		max-width: 1000px;
+		max-height: 500px;
+		min-height: 0px;
+	}
+	
+	
+	section{
+		height: 100vh;
+	}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+	body {
+		font-size: 1em;
+	}
+
+	#submitBtn{
+		
+		position: absolute;
+		margin-top: -12px;
+		margin-bottom: 25%;
+				
+	}
+	.overflowHidden{
+		height: 90vh;
+	}
+	.inputT {
+		top: 10px;
+		left: -120px;
+		width: 480px;
+
+		font-size: 1.2em;
+	}
+	#nuage1{
+		visibility: hidden;
+	}
+	#nuage2{
+		visibility: hidden;
+	}
+	#nuage3{
+		position: absolute;
+		left: -60px;
+		top: 100px;
+	}
+	#map {
+		position: absolute;
+		bottom: -580px;
+		max-height: 600px;
+		height: 165px;
+		left: -225px;
+		width: 550px;
+	}
+	#bonHomCell{
+		position: absolute;
+		top: 30.5%;		
+		left: 22.5%;
+	}
+	#copyright{
+		position: absolute;
+		left: 36%;
+		bottom: 0px;
+		margin-bottom: 0px;
+	}
+	#bonhommeSection2{
+		position: absolute;s
+		bottom: 0px;
+		left: 75px;
+		margin-bottom: 0px;
+	}
+	#cellContact{
+		position: absolute;
+		left: 33.8%;
+		top: 53%;
+	}
+	#section2{
+		height: 80vh;
+	}
+	#bouleNumeroTelephone{
+		position: absolute;
+		left: 60px;
+		top: 170px;
+	}
+	#submitBtn{
+		position: absolute;
+		right: 190px;
+		top: 320px;		
+	}
+	#qaptcha{
+		position: absolute;
+		top: 220px;
+	}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+	body {
+		font-size: 1em;
+	}
+	#pcLeft,#pcRight,#carnet{
+		visibility: hidden;
+	}
+	#calculat1,#cafe3,#calculat2,#blocNote1{
+		visibility: hidden;
+	}
+	#cafe{
+		margin-right: -30px;
+		height: 70px;
+	}
+	#cafe2{
+		height: 70px;
+	}
+	#usb{
+		height: 70px;
+	}
+	#cell{
+		height: 70px;
+	}
+	#ecouteur{
+		height: 120px;
+	}
+	#clavier{
+		height: 200px;
+	}
+	#ecran{
+		height: 250px;
+		position: absolute;
+		margin-top: 25px;
+		margin-left: 25px;
+	}
+	.overflowHidden{
+		height: 90vh;
+	}
+	.inputT {
+		top:0px;
+		left: 0%;
+		width: 500px;
+		height: 30px;
+	}
+	#bonHomCell{
+		position: absolute;
+		top: 11.5%;
+		left: 60px;16
+	}
+	#contactDetails{
+		height: 20vh;
+	}
+	#slide3{
+		height: 20vh;
+	}
+	#map{
+		position: absolute;
+		left: -145px;
+		width: 650px;
+		height: 205px;
+		bottom: -420px;
+	}
+	#bouleNumeroTelephone{
+		position: absolute;
+		left: 10px;
+		top: 15px;
+	}
+	#nuage1{
+		position: absolute;
+		top: 11%;
+		left: 10px;
+	}
+	.nuage2{
+		visibility: hidden;
+	}
+	#nuage3{
+		position: absolute;
+		left: -40px;
+		top: 35px;
+	}
+	#submitBtn{
+		position: absolute;
+		margin-top: 2%;
+		margin-right: -2%;
+	}
+	#cellContact{
+		visibility: visible;
+		position: absolute;
+		left: 20%;
+		top: 35%;
+		
+	}
+	#submitBtn{
+		position: absolute;
+		top: 210%;
+		right: 40%;
+		
+	}
+	#qaptcha{
+		position: absolute;
+		top: 220px;
+		right: 90px;		
+	}
+	#copyright{
+		position: absolute;
+		left: 35%;
+		bottom: 0px;
+	}
+	#bonhommeSection2{
+		position: absolute;s
+		bottom: 0px;
+		left: 75px;
+		margin-bottom: 0px;
+	}
+}
+
+/* ----- Tablets 800 / 1280 ----- */
+@media only screen 
+  and (min-device-width: 800px) 
+  and (max-device-width: 1280px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	body {
+		font-size: 1em;
+	}
+	section{
+		height: 100vh;
+	}
+	#qaptcha{
+		width: 200px;
+		right: -12px;
+	}
+	#bouleNumeroTelephone{
+		position: absolute;
+		left: 27px;
+	}
+	#contactDetails{
+		
+		height: 90vh;
+	}
+	.inputT {
+		max-width: 3000%;
+		right: -10px;
+	}
+	#cellContact{
+		position: absolute;
+		height: 90px;
+		visibility: visible;
+		margin-top: 50%;
+	}
+	#map {
+		position: absolute;
+		max-width: 1000px;
+		max-height: 300px;
+	}
+	#slide3{
+		background-color: transparent;
+	}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 800px) 
+  and (max-device-width: 1280px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	body {
+		font-size: 1em;
+	}
+	#section1,#section2{
+		height: 70vh;
+	}
+	.overflowHidden{
+		height: 100vh;
+	}
+	.inputT {
+		width: 500px;
+		font-size: 1.50em;
+	}
+	#nuage3{
+		position: absolute;
+		top: 40px;
+	}
+	#qaptcha{
+		position: absolute;
+		right: 17px;
+	}
+	#map {
+		width: 770px;
+		height: 200px;
+		bottom: -750px;
+		left: -370px;
+	}
+	#submitBtn{
+		position: absolute;
+		top: 340px;
+		right: 215px;
+				
+	}
+	#bonHomCell{
+		position: absolute;		
+		left: 150px;
+		top: 40%;
+	}
+	#qaptcha{
+		position: absolute;
+		top: 250px;
+		right: 240px;
+		width: 150px;
+	}
+	#cellContact{
+		position: absolute;
+		left: 37.5%;
+		top: 325px;
+	}
+	#bouleNumeroTelephone{
+		position: absolute;
+		height: 500px;
+		left: 65px;
+		top: 430px;
+	}
+
+	#copyright{
+		position: absolute;
+		left: 36%;
+		bottom: 0px;
+	}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 800px) 
+  and (max-device-width: 1280px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+	body {
+		font-size: 1em;
+	}
+	#pcLeft,#pcRight,#carnet{
+		visibility: hidden;
+	}
+	#calculat1,#cafe3,#calculat2,#blocNote1{
+		visibility: hidden;
+	}
+	#cafe{
+		margin-right: -30px;
+		height: 70px;
+	}
+	#cafe2{
+		height: 70px;
+	}
+	#usb{
+		height: 70px;
+	}
+	#cell{
+		height: 70px;
+	}
+	#ecouteur{
+		height: 120px;
+	}
+	#clavier{
+		height: 200px;
+	}
+	#ecran{
+		height: 250px;
+		position: absolute;
+		margin-top: 25px;
+		margin-left: 25px;
+	}
+	#section1,#section2{
+		height: 100vh;
+	}
+	#cell{
+		visibility: hidden;
+	}
+	.inputT {
+		top: -10px;
+		width: 550px;
+	}
+	#nuage3{
+		left: 20px;
+		top: -60px;
+	}
+	#nuage2{
+		visibility: hidden;
+	}
+	#nuage1{
+		top: 20px;
+		margin-left: 85px;
+	}
+	.overflowHidden{
+		height: 97vh;
+	}
+
+	#map {
+		width: 700px;
+		height: 180px;
+		position: absolute;
+		bottom: -300px;
+		left: -150px;		
+	}
+	#bonHomCell{
+		position: absolute;		
+		left: 190px;
+		top: 7.5%;
+	}
+	#cellContact{
+		
+		display: block;
+		position: absolute;
+		left: 3.5%;
+		top: -225px;
+	}
+	#submitBtn{
+		position: absolute;
+		top: 300px;
+		right: 215px;
+				
+	}
+	#qaptcha{
+		position: absolute;
+		top: 220px;
+		right: 240px;
+		width: 150px;
+	}
+
+	#copyright{
+		position: absolute;
+		left: 36%;
+		bottom: 10px;
+	}
+}

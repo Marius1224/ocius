@@ -1,0 +1,226 @@
+/*****************/
+/** QapTcha CSS **/
+/*****************/
+.QapTcha {margin: 0 auto 20px auto;width:300px;}
+.QapTcha .clr{clear:both}
+.QapTcha .bgSlider {width:300px;height:39px;float:left;border:1px solid #040404;background-color:#f4901f;}
+.QapTcha .Slider {width:52px;height:37px;background:transparent url('../images/bg_draggable_qaptcha.png') no-repeat;cursor:e-resize;position:relative;top:0;left:0}
+.QapTcha .TxtStatus {width:300px;margin-top:7px;margin-bottom: 0;text-align:left;color:#bb2828;font-family:Verdana;font-size:12px;clear:both}
+.QapTcha .dropSuccess {color:#f4901f}
+.QapTcha .dropError {color:#f4901f}
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+	.QapTcha {	
+		width: 150px;
+	}
+	.QapTcha .bgSlider {	
+		width: 150px;
+	}
+	.QapTcha .TxtStatus {
+		font-size: 8px;
+		width: 250px;
+	}
+}
+ /* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+	.QapTcha  {	
+		width: 250px;
+	}
+	.QapTcha .bgSlider {	
+		width: 250px;
+	}
+	.QapTcha .TxtStatus {
+		font-size: 8px;
+		width: 400px;
+	}
+}
+
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  	.QapTcha {	
+		width: 200px;
+	}
+	.QapTcha .bgSlider {	
+		width: 200px;
+	}
+	.QapTcha .TxtStatus {
+		font-size: 10px;
+		width: 250px;
+	}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+	.QapTcha .TxtStatus {
+		font-size: 10px;
+		width: 400px;
+	}
+}
+
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+  	.QapTcha {	
+		width: 200px;
+	}
+	.QapTcha .bgSlider {	
+		width: 200px;
+	}
+	.QapTcha .TxtStatus {
+		font-size: 10px;
+		width: 250px;
+	}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+	.QapTcha .TxtStatus {
+		font-size: 10px;
+		width: 400px;
+	}
+}
+
+
+/* ----------- Nokia N9 ----------- */
+
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 1) {
+	.QapTcha {	
+		width: 200px;
+	}
+	.QapTcha .bgSlider {	
+		width: 200px;
+	}
+	.QapTcha .TxtStatus {
+		font-size: 8px;
+		width: 250px;
+	}
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 1) 
+  and (orientation: landscape) {
+	.QapTcha  {	
+		width: 250px;
+	}
+	.QapTcha .bgSlider {	
+		width: 250px;
+	}
+	.QapTcha .TxtStatus {
+		font-size: 8px;
+		width: 500px;
+	}
+}
+
+/* ----------- Nokia Lumia 520 ----------- */
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 533px) 
+  and (-webkit-device-pixel-ratio: 1.4) {
+	.QapTcha {	
+		width: 200px;
+	}
+	.QapTcha .bgSlider {	
+		width: 200px;
+	}
+	.QapTcha .TxtStatus {
+		font-size: 8px;
+		width: 250px;
+	}
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 533px) 
+  and (-webkit-device-pixel-ratio: 1.4) 
+  and (orientation: landscape) {
+	.QapTcha  {	
+		width: 250px;
+	}
+	.QapTcha .bgSlider {	
+		width: 250px;
+	}
+	.QapTcha .TxtStatus {
+		font-size: 8px;
+		width: 400px;
+	}
+}
+
+/* ----------- Nexus 4 ----------- */
+
+/* Portrait */
+@media screen 
+  and (device-width: 384px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+	.QapTcha {	
+		width: 200px;
+	}
+	.QapTcha .bgSlider {	
+		width: 200px;
+	}
+	.QapTcha .TxtStatus {
+		font-size: 8px;
+		width: 250px;
+	}
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 384px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+	.QapTcha  {	
+		width: 250px;
+	}
+	.QapTcha .bgSlider {	
+		width: 250px;
+	}
+	.QapTcha .TxtStatus {
+		font-size: 8px;
+		width: 400px;
+	}
+}
